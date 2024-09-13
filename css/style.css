@@ -1,0 +1,99 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #000000; 
+    color: #FFFFFF; 
+    margin: 20px 20px 0 20px; 
+  }
+
+/*Make the h1 heading bigger with a bold font*/
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+  }
+
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2; /* double-spaced text */
+}
+
+div {
+    min-height: 125px; /* flexible height */
+    padding: 20px;
+    border: 3px solid #FFFFFF; /* 3px solid white border */
+  }
+
+/*Style the images*/
+img {
+    width: 250px; /* fixed width */
+    display: block;
+    margin: 0 auto; /* center images */
+    border: 10px dashed #FFFFFF; /* white dashed border */
+  }
+
+/*Make the h2 heading match h1*/
+h2 {
+    font-size: 30px;
+    color: #0D0D0D; 
+  }
+
+/*Improve the spacing for paragraphs AND headings*/
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px; /* 10px padding on top and left only */
+  }
+
+.red {
+    background-color: #FF0000; /* red background */
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+  }
+
+  .blue {
+    background-color: #0000FF; /* blue background */
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
+  }
+
+  .blue h2, .blue p {
+    color: #C4C4C4; /* light gray for better contrast */
+  }
+
+  .yellow {
+    background-color: #FFFF00; /* yellow background */
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+  }
+
+  .yellow p {
+    color: #707070; /* medium gray for better contrast */
+  }
+
+  .green {
+    background-color: #008500; 
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
+  }
+
+  footer {
+    background: linear-gradient(to right, #000000 0%, #0000FF 25%, #0066FF 70%, #000000 100%);
+    border: 5px solid #FFFFFF; /* white border */
+  }
+
+  footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0; /* padding on top, right, and bottom only */
+  }
+/*Added this so the links stay the same color*/
