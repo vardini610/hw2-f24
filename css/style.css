@@ -1,7 +1,7 @@
 /*Add padding and margin to space out the page.
 Make the font larger too.*/
 body {
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana;
     background-color: #000000; 
     color: #FFFFFF; 
     margin: 20px 20px 0 20px; 
@@ -14,16 +14,14 @@ h1 {
     padding: 15px;
   }
 
-.introduction {
-    border-radius: 15px;
-    margin-top: 15px;
-    line-height: 2; /* double-spaced text */
-}
+h2 {
+    font-size: 30px;
+    color: #0D0D0D; 
+  }
 
-div {
-    min-height: 125px; /* flexible height */
-    padding: 20px;
-    border: 3px solid #FFFFFF; /* 3px solid white border */
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px; /* 10px padding on top and left only */
   }
 
 /*Style the images*/
@@ -34,17 +32,20 @@ img {
     border: 10px dashed #FFFFFF; /* white dashed border */
   }
 
-/*Make the h2 heading match h1*/
-h2 {
-    font-size: 30px;
-    color: #0D0D0D; 
+div {
+    min-height: 125px; /* flexible height */
+    padding: 20px;
+    border: 3px solid #FFFFFF; /* 3px solid white border */
   }
 
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2; /* double-spaced text */
+}
+
 /*Improve the spacing for paragraphs AND headings*/
-p {
-    font-size: 24px;
-    padding: 10px 0 0 10px; /* 10px padding on top and left only */
-  }
+
 
 .red {
     background-color: #FF0000; /* red background */
@@ -52,6 +53,8 @@ p {
     margin-left: 50px;
     border-bottom: 2px solid;
     border-left: 5px solid;
+    border-right: 0px;
+    border-top: 0px;
   }
 
   .blue {
@@ -60,6 +63,8 @@ p {
     margin-right: 50px;
     border-right: 5px solid;
     border-top: 2px solid;
+    border-bottom: 0px;
+    border-left: 0px;
   }
 
   .blue h2, .blue p {
@@ -72,6 +77,8 @@ p {
     margin-left: 50px;
     border-bottom: 2px solid;
     border-left: 5px solid;
+    border-right: 0px;
+    border-top: 0px;
   }
 
   .yellow p {
@@ -84,6 +91,8 @@ p {
     margin-right: 50px;
     border-right: 5px solid;
     border-top: 2px solid;
+    border-bottom: 0px;
+    border-left: 0px;
   }
 
   footer {
